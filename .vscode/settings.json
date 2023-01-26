@@ -1,0 +1,13 @@
+{
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "entity.name.tag support.class.component",
+        "settings": {
+          "foreground": "#F6A083"
+        }
+      }
+    ],
+    "comments": ""
+  }
+}

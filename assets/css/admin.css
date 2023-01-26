@@ -1,0 +1,66 @@
+/* Remove some default Carbon Fields styling 
+------------------------------ */
+.carbon-box.postbox,
+.cf-container .cf-field,
+.cf-container__fields {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+/* New grid layout 
+------------------ */
+
+/* Carbon Fields container */
+.carbon-box.postbox {
+  max-width: 900px;
+  padding: 10px 0;
+}
+
+.cf-container .cf-field {
+  display: grid;
+  grid-template-areas:
+    'head body'
+    'help body';
+  grid-template-columns: 2fr 1.25fr;
+  column-gap: 32px;
+
+  padding: 16px 0;
+  font-size: 14px;
+}
+
+.cf-field__head {
+  grid-area: head;
+}
+.cf-field__body {
+  grid-area: body;
+}
+.cf-field__help {
+  grid-area: help;
+  margin-top: 0;
+  font-style: normal;
+  color: #787e87;
+}
+
+input[type='number'] {
+  max-width: 100px;
+}
+
+/* Other elements 
+----------------- */
+
+/* Hide default Carbon Fields submut metabox */
+#submitdiv {
+  display: none;
+}
+
+/* HTML element */
+.cf-container .cf-field.cf-html {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Section headings */
+.cf-field.cf-html h3 {
+  margin: 0;
+}
