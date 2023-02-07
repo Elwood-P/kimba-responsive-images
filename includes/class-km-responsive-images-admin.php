@@ -1,4 +1,4 @@
-<?
+<?php
 
 class KM_Responsive_Images_Admin
 {
