@@ -1,4 +1,4 @@
-# Wordpress Images on Demand Plugin
+# WP Images on Demand Plugin
 
 Images on Demand is a WordPress plugin that provides an alternative way of serving scaled images by integrating with an image CDN. It replaces both the native WordPress thumbnail and responsive images functionality. This helps to save server space and improve page load speed compared to the default WordPress approach.
 
