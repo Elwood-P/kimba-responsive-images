@@ -13,7 +13,7 @@ Images on Demand is a WordPress plugin that provides an alternative way of servi
 - Prevents the generation of default Wordpress thumbnails.
 - Replaces WordPress thumbnails with scaled image from CDN.
 
-Demo site
+[Demo site](https://wordpress-656384-3253566.cloudwaysapps.com)
 
 ## Todo
 
