@@ -19,5 +19,5 @@ Images on Demand is a WordPress plugin that provides an alternative way of servi
 - [ ]  Use `post_thumbnail_html` filter to replace WP thumbnails with scaled image from CDN.
 - [ ]  Documentation
 
-> Read an [article](https://elwoodp.dev/articles/improving-wordpress-image-handling/) about the project or visit the [demo site](https://wordpress-656384-3253566.cloudwaysapps.com)
+> Read an [article](https://elwoodp.dev/articles/improving-wordpress-image-handling/) about the project or visit the [demo site.](https://wordpress-656384-3253566.cloudwaysapps.com)
 
